@@ -2,7 +2,7 @@
 # Followed http://docs.unity3d.com/Manual/InstallingUnity.html
 cask 'unity-editor-v523' do
   version '5.2.3f1'
-  sha256 :no_check
+  sha256 'a2cf141409078a8e1934a0dede357578580e318c21275696b57346acbcbd284c'
 
   url 'http://download.unity3d.com/download_unity/f3d16a1fa2dd/MacEditorInstaller/Unity-5.2.3f1.pkg'
   name 'Unity Editor'
