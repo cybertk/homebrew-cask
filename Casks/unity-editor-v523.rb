@@ -1,6 +1,6 @@
 # Manual installing of unity
 # Followed http://docs.unity3d.com/Manual/InstallingUnity.html
-cask 'unity-editor' do
+cask 'unity-editor-v523' do
   version '5.2.3f1'
   sha256 :no_check
 
