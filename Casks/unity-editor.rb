@@ -1,11 +1,10 @@
 # Manual installing of unity
 # Followed http://docs.unity3d.com/Manual/InstallingUnity.html
 cask 'unity-editor' do
-  version '5.3.1f1'
+  version '5.2.3f1'
   sha256 :no_check
 
-  # Download url can be found at ~/Downloads/UnityPackages/install.ini after opening 'Unity Download Assistant.app'
-  url 'http://netstorage.unity3d.com/unity/cc9cbbcc37b4/MacEditorInstaller/Unity.pkg'
+  url 'http://download.unity3d.com/download_unity/f3d16a1fa2dd/MacEditorInstaller/Unity-5.2.3f1.pkg'
   name 'Unity Editor'
   homepage 'https://unity3d.com/unity/'
   license :commercial
