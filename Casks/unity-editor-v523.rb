@@ -9,7 +9,7 @@ cask 'unity-editor' do
   homepage 'https://unity3d.com/unity/'
   license :commercial
 
-  pkg 'Unity.pkg'
+  pkg "Unity-#{version}.pkg"
 
   uninstall :quit => 'com.unity3d.UnityEditor5.x',
             :pkgutil => 'com.unity3d.UnityEditor5.x'
